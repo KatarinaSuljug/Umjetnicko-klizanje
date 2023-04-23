@@ -1,252 +1,121 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="css/kstyle.css">
-        <link href="css/animate.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <section class="home">
-            <header>
-                <a href="#" class="logo">Badminton</a>
-                <ul>
-                    <li><a href="#"  target="_blank">Podaci o studentu</a></li>
-                    <li><a href="pitanje.html"  target="_blank">Moja iskustva</a></li>
-                </ul>
-            </header><br><br><br><br>
-            <div class="content">
-                <div class="textBox">
-                    <h2>Let your racquet do<br><span>the talking</span></h2>
-                    <p class="p1" >
-                        Šport koji se igra reketom, a u kojem se susreću ili dva pojedinca ili dva para.
-                         Igrači igraju na svojoj strani pravokutnog terena podijeljenog mrežom po sredini. Igrači reketom 
-                         udaraju badmintonsku lopticu tako da pređe mrežu i padne u suprotnu polovicu terena, a s ciljem da je
-                          protivnik ne uspije vratiti.
-                    </p>
-                    <a href="https://hr.wikipedia.org/wiki/Metloboj"  target="_blank">Katarinin drugi izbor</a>
-                    <a href="https://hr.wikipedia.org/wiki/Metloboj"  target="_blank">Marinov drugi izbor</a>
-                </div>
-                <div class="imgBox">
-                    <img src="img/bad3.png" alt="" class="sports">
-                </div>
-            </div>
-            <ul class="thumb">
-                <li><img src="img/bad3.png" onclick="imgSlider('img/bad3.png'); changeColor('#a18c02');"></li>
-                <li><img src="img/bad1.png" onclick="imgSlider('img/bad1.png'); changeColor('#2236b4');"></li>
-                <li><img src="img/bad4.png" onclick="imgSlider('img/bad4.png'); changeColor('#566a3b');"></li>
-            </ul>
-        </section>
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Katarinin drugi izbor</title>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-3">
-                    <h1>Osnove</h1><br>
-                    <p class="p1">
-                        Većina pravila za umjetničke klizače odnosi se na izvedbu. 
-                        Klizači se moraju elegantno predstaviti na ledu. Glava klizača mora biti uspravna i ne previše ukočena.
-                         Klizač također ne smije savijati leđa prema naprijed. Ruke klizača moraju uvijek graciozno teći bez trzaja. 
-                         Prsti ne smiju biti stisnuti, skupljeni u šaku ili izgledati previše ispruženi. Tok i kretanje klizača 
-                         moraju biti graciozni, s klizačem razumnom brzinom.<br><br>
-                         Sve dok se klizači pridržavaju ovih pravila, klizaču se daje puno slobode u koreografiji.
-                         Međutim, Zayakovo pravilo nudi strogu kontrolu za određene elemente rutine. Zayakovo pravilo,
-                          nazvano po istaknutoj klizačici Elaine Zayak, zabranjuje klizačima pokušaj više od dva elementa troskoka ili četveroskoka. 
-                          Ovo je učinjeno kako bi se naglasila veća raznolikost u koreografiji. Klizači također moraju koristiti samo svoje tijelo i
-                           klizaljke u izvedbi; niti jedan umjetnički klizač ne može koristiti nikakvu vanjsku opremu za poboljšanje izvedbe.
-                        
-                    </p>
-                        <!-- slika lošije kvalitete -->
-                    <img class="card-img" src="img/skating_basics_low.jpg" onclick="showPopup('popup1')" alt="jumps-pic">
-                </div>
-            </div>
+    <!-- Bootstrap CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="img/">
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container"> 
+      <!-- Brand --> 
+      <a class="navbar-brand mr-auto" href="#">Katarinin drugi izbor</a> 
+      
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+      
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="index.html">Početna stranica</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="oMeni.html">Podaci o studentima</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="pitanje.html" >Klizanje i ja</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://youtu.be/x9EfVpiPUF0" target="_blank" >Marinov drugi izbor</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="container-fluid fh5co-network fh5co-network-hokej">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="wow bounceInRight"></h2>
+          <hr />
+          <p class="wow bounceInDown" style="text-align: justify; color: azure;">
+            Metloboj (engleski: Quidditch) je izmišljeni sport iz knjiga o Harryju Potteru, koji se igra na metlama, kao
+             magična verzija kombinacije nogometa, košarke i pola. To je najpopularniji sport čarobnjačke zajednice. 
+             Postoje mnogi profesionalni metlobojski klubovi, a čak i svaki dom u Hogwartsu ima svoju ekipu.<br><br>
+            
+             <h2 style="text-align: justify; color: azure;">Pravila</h2><br><br>
+             <p style="text-align: justify; color: azure;">Metloboj se igra na dugom ovalnom terenu s po tri vratnice na svakom kraju. Pobjeđuje ekipa s najviše bodova. Svaka ekipa ima sedam igrača, tri lovca, dva udarača, jednog vratara i jednog tragača. Igra se s četiri lopte.
+            <br><br>
+             Balun: velika crvena lopta, veličine nogometne (promjera 30 cm), s njim lovci zabijaju golove pokušavajući je ubaciti kroz jednu od tri vratnice suparničke ekipe. Svaki zabijeni gol donosi 10 bodova. Vratar čuva golove.
+             <br><br>
+             Maljci: dvije crne lopte. Nešto manje od baluna, promjera 25 cm, teške željezne lopte koje su začarane da lete uokolo i napadaju bilo kojeg igrača u blizini te ga pokušaju srušiti s metle. Udarači s palicama pokušavaju odvratiti maljce od igrača svog tima.
+             <br><br>
+             Zlatna zvrčka: zlatna loptica veličine oraha sa srebrnim krilima, začarana da izbjegava tragača, čiji je jedini posao uhvatiti zlatnu zvrčku.
+             <br><br>
+             U igri nema vremenskih ograničenja, utakmica završava kad je ulovljena zvrčka. Hvatanje zvrčke donosi ekipi 150 bodova. U metloboju je moguće napraviti prekršaj na 700 načina, a svi su oni napravljeni na jednoj utakmici 1473.
+          </p>>
+             <br><br>
+            <h2 style="text-align: justify; color: azure;">Profesionalne ekipe</h2><br><br><p style="text-align: justify; color: azure;">
+                Harpije iz Holyheada<br>
+                Katapulti iz Caerphillyja<br>
+                Ose iz Wimbournea<br>
+                Orkani iz Tutshilla<br>
+                Ponosi Portreeja<br>
+                Puddlemere United<br>
+                Sokoli iz Falmoutha<br>
+                Strijele iz Applebya<br>
+                Svrake iz Montrosea<br>
+                Šišmiši iz Ballycastlea<br>
+                Topnici iz Chudleya<br>
+                Vagabundi iz Wigtowna<br>
+                Vjetruše iz Kenmarea<br>
+          </p>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-3">
-                    <h1>Skokovi</h1><br>
-                    <p class="p1">
-                        Skokovi su važan dio koreografije za klizača. Svi skokovi relz teški pri doskoku na ispravan dio oštrice.
-                         Budući da je oštrica šuplja, klizači se osjećaju kao da postoje dvije oštrice; unutarnju oštricu i vanjsku
-                          oštricu. Ovisno o tome gdje se umjetnički klizač podigne i sleti na oštricu određuje koji će pokret klizač
-                           izvesti.
-                    </p><br>
-                    <p class="p1">
-                        U klizanju na ledu postoje dvije vrste skokova; skokovi s ruba i skokovi na prste. Skokovi s ruba fokusiraju
-                         se na snagu savijanja koljena za skok, dok se skokovi na prste fokusiraju na korištenje nožnog prsta za
-                          skok u zrak. Edge skokovi uključuju petlju, Salchow i aksel. Skokovi na prstima uključuju toe loop, 
-                          flip i lutz. Što više okretaja klizač može izvesti, poput dvostrukog ili trostrukog skoka, to će dobiti
-                           veću osnovnu vrijednost za svoj rezultat.
-                    </p>
-                    <img class="card-img" src="img/skating_jumps_low.jpg" onclick="showPopup('popup2')" alt="jumps-pic">
-                    <img class="card-img" src="img/toe_loop.gif" alt="jumps-pic">
-                    <p class="textUnderPicture" >
-                        Patrick Chan izvodi četverostruki toe loop na Olimpijskim igrama u Pyeongchangu.
-
-                    </p>
-                </div>
-            </div>
+        <div class="col-md-6">
+          <figure class="wow bounceInDown"> <img src="img/metloboj1.jpg" onclick="showPopup('popup6')" alt="metloboj1" class="img-fluid"/> </figure>
+          <br><br><br>
+          <figure class="wow bounceInDown"> <img src="img/metloboj2.jpg" onclick="showPopup('popup7')" alt="metloboj2" class="img-fluid"/> </figure>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-3">
-                    <h1>Sigurnost</h1><br>
-                    <p class="p1">
-                        Umjetničko klizanje je opasan sport jer klizači kližu na vrlo oštrim čeličnim oštricama, pa je međunarodna
-                         klizačka unija provela prekršaje elemenata kako bi osigurala sigurnost klizača. Ovi prekršaji elemenata 
-                         navode specifične manevre koji su zabranjeni na natjecanjima. Većina zabranjenih elemenata je u umjetničkom
-                          klizanju u paru, ali postoji nekoliko zabranjenih elemenata koje jedan klizač može opasno izvesti sam.
-                    </p>
-                    <br>
-                    <p class="p1">
-                        Ovi nezakoniti elementi uključuju bilo kakve skokove na preokret (uključujući salto unatrag), svako dizanje
-                         koje drži podignutog klizača na opasan način, a klizaču nije dopušteno držati gležnjeve klizačice i vrtjeti
-                          ih u zraku, što je jasna referenca široko zabranjenom elementu poznatom kao headbanger. Klizaču je također
-                           zabranjeno napraviti više od 3 i pol kruga kada je klizačica podignuta u zrak. Na kraju, klizači ne mogu
-                            imati oba koljena u dodiru s ledom u trenutku izvedbe.
-                    </p>
-                    <img class="card-img" src="img/figure_safety_low.jpg" onclick="showPopup('popup3')" alt="jumps-pic">
-                    
-                </div>
-            </div>
+        <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown" href="https://bs.wikipedia.org/wiki/Metloboj" target="_blank" >Saznaj više</a>
+      </div>
+    </div>
+</div>
+
+<footer class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-4 footer1 d-flex wow bounceInLeft" data-wow-delay=".25s">
+        <div class="d-flex flex-wrap align-content-center">
+          <p>Web stranica izrađena za vrijeme pohađanja 
+            <a href="https://www.ferit.unios.hr/" target="_blank">Fakulteta elektrotehnike, računarstva i informacijskih tehnologija</a> u Osijeku u sklopu kolegija 
+            <a href="https://www.ferit.unios.hr/upisi-i-studijski-programi/preddiplomski-strucni-studij#racunarstvo#SR601" target="_blank">Multimedijska tehnika</a><br><br>
+            Stranicu izradila <a href="https://gitlab.com/katarina6017" target="_blank">Katarina Šuljug</a>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-3">
-                    <h1>Ocjenjivanje</h1><br>
-                    <p class="p1">
-                        Bodovi se dodjeljuju klizačima na temelju njihove ukupne izvedbe. Ovaj sport koristi međunarodni sustav
-                         ocjenjivanja za objektivno bodovanje klizača. Dva su rezultata koja se dodjeljuju klizačima: tehnički
-                          rezultat i rezultat komponenti programa. Tehnički rezultat fokusira se isključivo na pokušane elemente
-                           i koliko je dobro element izveden. Svaki pokušani element ima dodijeljenu osnovnu vrijednost, a zatim
-                            će izvršeno izvršenje povećati ili smanjiti osnovnu vrijednost za 5 bodova. Što je element teži, to
-                             je osnovna vrijednost veća. Ocjena komponenata programa ima pet kriterija koji se ocjenjuju od 
-                             ocjene 1-10, u koracima od 0,25.
-                    </p>
-                    <br>
-                    <p class="p1">
-                        Pet kriterija su vještine klizanja, prijelazi, rad nogu, izvedba i interpretacija glazbe. Ova dva rezultata
-                         se kombiniraju kako bi se stvorio ukupni rezultat segmenta. Ova metoda bodovanja jednaka je i za sportski i
-                          za dugi program. Ukupni rezultat između njih dvoje je natjecateljski rezultat, a pobjeđuje klizač s 
-                          najvećim natjecateljskim rezultatom.
-                    </p>
-                    <img class="card-img" src="img/figure_grading_low.jpg" onclick="showPopup('popup4')" alt="jumps-pic">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-3">
-                    <h1>Dopuštena oprema</h1><br>
-                    <p class="p1">
-                        Klizači moraju nositi klizaljke kad uđu na klizalište. Umjetničke klizaljke su cipele za klizanje s debelim, 
-                        šupljim čeličnim oštricama, debljine otprilike četiri milimetra na dnu cipele s utorima na prednjoj strani.
-                         Prednji dio cipele naziva se hvataljka prstiju. Pipak pomaže klizačima da lakše kontroliraju rad nogu. Ove 
-                         klizaljke moraju imati jednu oštricu bez vanjskih poboljšanja.
-                    </p><br>
-                    <p class="p1">
-                        Kostimi su sastavni dio umjetničkog klizanja. Muškarcima se preporuča nošenje hlača, a ženama hulahopke,
-                         hlače ili kombinezon sa suknjom preko. Neprikladnim kostimima, kao što su kostimi s previše dekora ili
-                          kostimi koji previše otkrivaju, bodovi će se oduzeti iz njihovog rezultata ili klizač može biti u 
-                          potpunosti diskvalificiran.
-                    </p>
-                    <img class="card-img" src="img/skating_equipment_low.jpg" onclick="showPopup('popup5')" alt="jumps-pic">
-                </div>
-            </div>
-        </div>  
+      </div>
+    </div>
+  </div>
+</footer>
 
-        <!--------saznaj više buttoni------>
-       <div class="content">
-            <div class="textBox offset-3">
-                  
-                <a style="text-align: center;"  href="https://www.britannica.com/sports/figure-skating"  target="_blank">Saznaj više ></a>
-              
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-3">
-                    <h2 style="text-align: center;">Umjetnost u umjetničkom klizanju</h2><br><br>
-                    <iframe width="360" height="280" src="https://youtu.be/is2Wu9tNdlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe width="360" height="280" src="https://youtu.be/yNhSuLCwde8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <br><br>
-                    <h2 style="text-align: center;">...i kratki audio zapis kako klizači biraju glazbu</h2><br><br>
-                    <audio controls autoplay>
-                        <source src="audio/chooseMusic.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </div>
-        </div>  
-        <!------
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-3">
-                    <h1 style="text-align: center;">Korisni linkovi o umjetničkom klizanju</h1><br><br>
-                    <a class="zaLinkove" href="https://www.goldenskate.com/"  target="_blank">Golden skate</a><br><br>
-                    <a class="zaLinkove" href="https://fs-gossips.com/"  target="_blank">FS Gossips</a><br><br>
-                    <a class="zaLinkove" href="https://figureskatersonline.com/news/"  target="_blank">Figure skaters Online</a><br><br>
-                    <a class="zaLinkove" href="https://adivinesport.com/"  target="_blank">A Divine Sport</a><br><br>
-                    
-
-                </div>
-            </div>
-        </div>------>
-
-
-<!-----foooter----->
-
-        <footer class="container-fluid">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4 offset-4 footer1 d-flex wow bounceInLeft" data-wow-delay=".25s">
-                  <div class="d-flex flex-wrap align-content-center">
-                    
-                    <p>Web stranica izrađena za vrijeme pohađanja 
-                      <a href="https://www.ferit.unios.hr/" target="_blank">Fakulteta elektrotehnike, računarstva i informacijskih tehnologija</a> u Osijeku u sklopu kolegija 
-                      <a href="https://www.ferit.unios.hr/upisi-i-studijski-programi/preddiplomski-strucni-studij#racunarstvo#SR601">Multimedijska tehnika</a><br><br>
-                      Stranicu izradila <a href="https://gitlab.com/katarina6017">Katarina Šuljug</a></p>
-                    
-                    </div>
-                </div>
-              </div>
-            </div>
-          </footer>
-          
-
-
-    </body>
-    
+<div id="popup6" class="popup">
+  <img src="img/metloboj1.jpg" />
+  <button onclick="hidePopup('popup6')">Close</button>
+</div>
+<div id="popup7" class="popup">
+  <img src="img/metloboj2.jpg" />
+  <button onclick="hidePopup('popup7')">Close</button>
+</div>
+  
+  <!-- Optional JavaScript --> 
+  <!-- jQuery first, then Bootstrap JS, ... -->
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/popup.js"></script>
+</body>
 </html>
-
-<div id="popup1" class="popup">
-    <!-- slika bolje kvalitete-->
-    <img src="img/skating_basics_original.jpg" />
-    <button onclick="hidePopup('popup1')">Close</button>
-</div>
-
-<div id="popup2" class="popup">
-    <!-- slika bolje kvalitete-->
-    <img src="img/skating_jumps__originals.jpg" />
-    <button onclick="hidePopup('popup2')">Close</button>
-</div>
-
-<div id="popup3" class="popup">
-    <!-- slika bolje kvalitete-->
-    <img src="img/figure_safety_original.jpg" />
-    <button onclick="hidePopup('popup3')">Close</button>
-</div>
-
-<div id="popup4" class="popup">
-    <!-- slika bolje kvalitete-->
-    <img src="img/figure_grading_original.png" />
-    <button onclick="hidePopup('popup4')">Close</button>
-</div>
-
-<div id="popup5" class="popup">
-    <!-- slika bolje kvalitete-->
-    <img src="img/skating_equipment_original.jpg" />
-    <button onclick="hidePopup('popup5')">Close</button>
-</div>
-
-<script src="js/script.js" ></script>
-<script src="js/popup.js" ></script>
